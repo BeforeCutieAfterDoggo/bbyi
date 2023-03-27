@@ -148,6 +148,8 @@ const HomePage = () => {
           <img className='h-10' src="/logo.png" />
           <h1 className="text-4xl text-black mb-8 ml-4 font-mono">Bombay Beachy Yami Ichi</h1>
         </div>
+        <h1 className="text-xl text-black mb-2 ml-4 font-mono">When: April 1st from 2-4PM (tenatively)</h1>
+        <h1 className="text-xl text-black mb-8 ml-4 font-mono">Where: Saturn courtyard (2171 2nd St, Niland, CA)</h1>
         <div className="columns-3">
           {trinkets.map((trinket, index) => (
             <div
