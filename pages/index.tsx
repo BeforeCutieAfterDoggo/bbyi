@@ -137,20 +137,20 @@ const HomePage = () => {
 
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen ">
       <Head>
         <title>Bombay Beachy Yami Ichi</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="max-w-5xl mx-auto py-12">
-        <div className='flex'>
+        <div className='flex ml-4'>
           <img className='h-10' src="/logo.png" />
-          <h1 className="text-4xl text-black mb-8 ml-4 font-mono">Bombay Beachy Yami Ichi</h1>
+          <h1 className="text-2xl lg:text-4xl text-black mb-8 ml-4 font-mono">Bombay Beachy Yami Ichi</h1>
         </div>
-        <h1 className="text-xl text-black mb-2 ml-4 font-mono"><b>When: </b>April 1st from 2-4PM (tenatively)</h1>
-        <h1 className="text-xl text-black mb-8 ml-4 font-mono"><b>Where: </b>Saturn courtyard (2171 2nd St, Niland, CA)</h1>
-        <div className="columns-3">
+        <img className='mb-20' src="/poster.png" />
+      
+        <div className="columns-1 lg:columns-3">
           {trinkets.map((trinket, index) => (
             <div
               key={index}

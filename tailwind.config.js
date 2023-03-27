@@ -9,7 +9,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      cursor: {
+        apple: "url('/logo.png'), pointer",
+      },
+    },
   },
   plugins: [],
 }
