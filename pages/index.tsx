@@ -132,24 +132,49 @@ const HomePage = () => {
       author: "Czar + Delic",
       price: "??",
     },
+    {
+      name: 'Yami-Ichi Stickers',
+      imageUrl: '/logo.png',
+      author: "Kirby",
+      price: "??",
+    },
+    {
+      name: 'Mars Offline Activities Booklet',
+      imageUrl: '/logo.png',
+      author: "Lucy",
+      price: "??",
+    },
   ]);
 
 
 
   return (
+
     <div className="bg-white min-h-screen ">
       <Head>
         <title>Bombay Beachy Yami Ichi</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className="absolute top-0 left-0 z-50  min-w-screen">
+        <img src="/logo.png" className="marquee h-20" />
+        <img src="/logo.png" className="marquee-2 h-40" />
+        <img src="/logo.png" className="marquee-3 h-10" />
+        <img src="/logo.png" className="marquee-4 h-60" />
+      </div>
 
       <main className="max-w-5xl mx-auto py-12">
         <div className='flex ml-4'>
           <img className='h-10' src="/logo.png" />
           <h1 className="text-2xl lg:text-4xl text-black mb-8 ml-4 font-mono">Bombay Beachy Yami Ichi</h1>
         </div>
-        <img className='mb-20' src="/poster.png" />
-      
+
+        <img className='mb-4' src="/poster.png" />
+        <div className="flex justify-center items-center ">
+          <video autoPlay loop muted className=" h-96 w-full max-w-3xl mb-4 ">
+            <source src="/loop.mp4" type="video/mp4" />
+          </video>
+        </div>
+
         <div className="columns-1 lg:columns-3">
           {trinkets.map((trinket, index) => (
             <div
