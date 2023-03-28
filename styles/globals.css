@@ -84,7 +84,7 @@ a {
 
 @keyframes marquee {
   0% {
-    transform: translateX(400%);
+    transform: translateX(100%);
   }
 
   100% {
