@@ -12,7 +12,6 @@ type Trinket = {
 };
 
 const HomePage = () => {
-  const [email, setEmail] = useState('');
   const [trinkets, setTrinkets] = useState<Trinket[]>([
     {
       name: 'AI Postcards',
@@ -31,7 +30,7 @@ const HomePage = () => {
       website: "https://joshjet.net/"
     },
     {
-      name: 'Opensea Keychains',
+      name: 'Keygen Keychains',
       author: "Jmill",
       imageUrl: '/logo.png',
       price: "??",
@@ -54,9 +53,6 @@ const HomePage = () => {
       description: "",
       website: ""
     },
-
-
-
     {
       name: 'Ritual Tarot of The Boundless Heart',
       imageUrl: 'https://static.wixstatic.com/media/3a6acf_a92488cffe2549778097d75b0b32c98b~mv2.jpg/v1/fill/w_960,h_1400,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/fireritualtall.jpg',
@@ -92,11 +88,11 @@ const HomePage = () => {
     },
     {
       name: 'EitherRocks',
-      imageUrl: '/logo.png',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1090145704380465202/Screen_Shot_2023-03-27_at_10.29.28_PM.png',
       author: "Lucy",
-      price: "??",
-      description: "",
-      website: ""
+      price: "$3 each, you will have to pick between two rocks",
+      description: "Inspired by EtherRocks, an early NFT project, we present you, EitherRocks. We have rigorously picked 32 rocks from a set of over 50+ rocks and carefully judged their characters using 5 dimesions from sims1: Neat, Outgoing, Active, Playful, and Nice. You will have to pick one from a pair of rocks we present you, and thus Either Rocks. Side story: Each rock is a gypsum stone that almost cost two lives to get from the Salton Sea. ",
+      website: "https://www.instagram.com/seisai98/"
     },
 
     {
@@ -109,11 +105,11 @@ const HomePage = () => {
     },
     {
       name: 'Trip Book Presale',
-      imageUrl: '/logo.png',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1090147780879716372/Group_123_1.png',
       author: "Lucy",
-      price: "??",
-      description: "",
-      website: ""
+      price: "$15, Presale, Physical copies still in production. Please leave your email if interested. Digital version available on Gumroad for $4.10",
+      description: "Cutie's first mushroom trip through the eyes of AI. A highly personal, fun, sentimental, and profound experience. Actual physical copy will be 10x10 inches",
+      website: "https://www.bcad.one/project/1"
     },
 
     {
@@ -130,15 +126,23 @@ const HomePage = () => {
       author: "Lucy",
       price: "$20",
       description: "",
-      website: ""
+      website: "https://www.bcad.one/"
     },
     {
-      name: 'Anti-Virus Fulu',
-      imageUrl: '/logo.png',
+      name: 'Anti-Virus Fulu Sticker: Begone, Computer Bugs!',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1090143912095666246/Screen_Shot_2023-03-27_at_10.20.44_PM.png',
       author: "Lucy",
-      price: "??",
-      description: "",
-      website: ""
+      price: "$2",
+      description: "Inspired by Dennou Coil, I made a Chinese Talisman version of computer debugger. I wrote the Talisman in traditional Chinese with the message of 'Command: Begone. Computer Bugs!'",
+      website: "https://www.instagram.com/seisai98/"
+    },
+    {
+      name: 'FOMO/FOJI/JOMO/JOJI Sticker',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1090155266080788500/Screen_Shot_2023-03-27_at_11.07.25_PM.png',
+      author: "Acro Sam",
+      price: "$1",
+      description: "The spectrum of FOMO/FOJI/JOMO/JOJI",
+      website: "https://www.instagram.com/kitt_10/"
     },
 
     {
@@ -183,19 +187,19 @@ const HomePage = () => {
     },
     {
       name: 'Yami-Ichi Stickers',
-      imageUrl: '/logo.png',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1090154130846261299/Screen_Shot_2023-03-27_at_11.02.47_PM.png',
       author: "Kirby",
-      price: "??",
-      description: "",
-      website: ""
+      price: "$1",
+      description: "Logo for Bombay Beachy Yami-Ichi",
+      website: "https://www.instagram.com/kirbliscious/"
     },
     {
       name: 'Mars Offline Activities Booklet',
-      imageUrl: '/logo.png',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1090151807830990988/Screen_Shot_2023-03-27_at_10.53.25_PM.png',
       author: "Lucy",
-      price: "??",
-      description: "",
-      website: ""
+      price: "$15",
+      description: "Ever wonder what Martians are doing when they're off computers? I carefully selected 28 offline Martian activities for your curiosity. Inspired by the booklet Offline Activities.",
+      website: "https://mars.college/"
     },
   ]);
 
