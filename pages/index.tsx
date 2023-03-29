@@ -187,7 +187,7 @@ const HomePage = () => {
     },
     {
       name: 'Yami-Ichi Stickers',
-      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1090154130846261299/Screen_Shot_2023-03-27_at_11.02.47_PM.png',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1090702254715174932/logo-yami_ichi-01_1_1.png',
       author: "Kirby",
       price: "$1",
       description: "Logo for Bombay Beachy Yami-Ichi",
