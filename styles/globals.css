@@ -81,15 +81,13 @@ a {
 .marquee-4 {
   animation: marquee 11s linear infinite;
 }
-.marquee-mom{
-  overflow-x: hidden;
-}
+
 @keyframes marquee {
   0% {
-    transform: translateX(100%);
+    transform: translateX(100vw);
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-100vw);
   }
 }

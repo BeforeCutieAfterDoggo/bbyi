@@ -212,8 +212,8 @@ const HomePage = () => {
         <title>Bombay Beachy Yami Ichi</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="absolute top-0 left-0 z-50  min-w-screen marquee-mom">
-        <img src="/logo.png" className="marquee h-20" />
+      <div className="absolute top-0 left-0 z-50  min-w-screen overflow-hidden sm:overflow-visible">
+        <img src="/logo.png" className="marquee  h-20" />
         <img src="/logo.png" className="marquee-2 h-40" />
         <img src="/logo.png" className="marquee-3 h-10" />
         <img src="/logo.png" className="marquee-4 h-60" />
