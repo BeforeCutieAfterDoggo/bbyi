@@ -14,8 +14,16 @@ type Trinket = {
 const HomePage = () => {
   const [trinkets, setTrinkets] = useState<Trinket[]>([
     {
+      name: 'Obsidian Vault',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097631577590214686/IMG_0906.jpeg',
+      author: "Lucy",
+      price: "A piece of your knowledge",
+      description: "Obsidian is a free open-source software that allows people to link their thinking in an unprecedented way. We made an obsidian vault filled with obsidians we found at the Salton Sea and trade it with a piece of your knowledge. ",
+      website: "https://www.instagram.com/seisai98/"
+    },
+    {
       name: 'AI Postcards',
-      imageUrl: 'https://cdn.discordapp.com/attachments/1088671653040492572/1089978372580450314/aipostcards.jpeg',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097644520092471386/IMG_0893.jpeg',
       author: "Josh",
       price: "One blank postcard free to anyone who promises to send it to someone in the mail (25 available - while supplies last.)\r\n$2 or trade: Blank postcard with no commitment to mail it to anyone. (50 available - while supplies last.)\n $3 or trade: Postcard with customized hand-written message to your friend from ChatGPT.",
       description: "Beautiful classic postcards created using AI artwork with optional custom message from ChatGPT.",
@@ -23,7 +31,7 @@ const HomePage = () => {
     },
     {
       name: 'Facebook Registration - FREE!',
-      imageUrl: 'https://cdn.discordapp.com/attachments/1088671653040492572/1089978372861464596/facebook_registration.png',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097637994674012232/IMG_0904.jpeg',
       author: "Josh",
       price: "Free",
       description: "Come and register for the coolest new thing on the Internet. Facebook is an incredible new service that allows you to connect with your friends and family. There are absolutely no drawbacks and all you get is more love and more friends. You might even find the love of your life (or at least have the opportunity to stalk them!) Signing up is easy. Just come by the Facebook both and fill out the simple registration form.",
@@ -32,26 +40,10 @@ const HomePage = () => {
     {
       name: 'Keygen Keychains',
       author: "Jmill",
-      imageUrl: '/logo.png',
-      price: "??",
-      description: "",
-      website: ""
-    },
-    {
-      name: 'Concrete Memes',
-      author: "Will",
-      imageUrl: '/logo.png',
-      price: "??",
-      description: "",
-      website: ""
-    },
-    {
-      name: 'Bricked Phones',
-      imageUrl: '/logo.png',
-      author: "Will",
-      price: "??",
-      description: "",
-      website: ""
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097635831453335684/IMG_0903.jpeg',
+      price: "$5",
+      description: "Keychains made with images of keygens. Make your keys into license keys.",
+      website: "https://twitter.com/jmilldotdev"
     },
     {
       name: 'Ritual Tarot of The Boundless Heart',
@@ -63,29 +55,21 @@ const HomePage = () => {
     },
     {
       name: 'MarsSpace Domain Squatting',
-      imageUrl: '/logo.png',
+      imageUrl: 'https://cdn.discordapp.com/attachments/931340854906482758/1097638967765127188/IMG_6058.png',
       author: "Jmill",
-      price: "??",
+      price: "Auction",
       description: "",
-      website: ""
+      website: "https://twitter.com/jmilldotdev"
     },
     {
-      name: 'Sold by Dick pics',
-      imageUrl: '/logo.png',
-      author: "Jmill",
-      price: "??",
-      description: "",
-      website: ""
+      name: 'Shadow Selfies',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097629311420334110/Screen_Shot_2023-04-17_at_5.06.00_PM.png',
+      author: "Vincent",
+      price: "Free",
+      description: "An AI-powered roasting machine, for people seeking emotional damage.",
+      website: "https://drmbt.com/projects/shadowselfie/"
     },
 
-    {
-      name: 'Obsidian Plugins',
-      imageUrl: '/logo.png',
-      author: "Lucy",
-      price: "??",
-      description: "",
-      website: ""
-    },
     {
       name: 'EitherRocks',
       imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1090145704380465202/Screen_Shot_2023-03-27_at_10.29.28_PM.png',
@@ -96,12 +80,12 @@ const HomePage = () => {
     },
 
     {
-      name: 'Thrift Store',
-      imageUrl: '/logo.png',
-      author: "Kirby",
-      price: "??",
-      description: "",
-      website: ""
+      name: 'Cursor Cookie',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097633328368193720/IMG_0914.jpeg',
+      author: "Chebel",
+      price: "$1",
+      description: "Made w/ Butter, Sugar, Flour, a taste that just clicks!",
+      website: "https://www.instagram.com/iluminachebel/"
     },
     {
       name: 'Trip Book Presale',
@@ -114,18 +98,18 @@ const HomePage = () => {
 
     {
       name: 'Coke Diffusion Colas',
-      imageUrl: '/logo.png',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097634418790764715/IMG_0916.jpeg',
       author: "Jmill",
-      price: "??",
-      description: "",
-      website: ""
+      price: "$1",
+      description: "A postscript of our coke diffusion twitter bot. This time, we put the AI generated native advertising into the real coca-cola cans. ",
+      website: "https://www.bcad.one/project/4"
     },
     {
       name: 'Instagram Food Mats',
       imageUrl: 'https://cdn.discordapp.com/attachments/1083196421353779260/1090039890860851211/IMG_5940.jpg',
       author: "Lucy",
       price: "$20",
-      description: "",
+      description: "Let's go Meta! The perfect frame for your perfect meal.",
       website: "https://www.bcad.one/"
     },
     {
@@ -147,43 +131,19 @@ const HomePage = () => {
 
     {
       name: 'Printer Pages Book',
-      imageUrl: '/logo.png',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097641335277756538/IMG_0896.jpeg',
       author: "Jmill",
-      price: "??",
-      description: "",
-      website: ""
-    },
-    {
-      name: 'Unfinished Project Shrine',
-      imageUrl: '/logo.png',
-      author: "Jmill",
-      price: "??",
-      description: "",
-      website: ""
+      price: "Display",
+      description: "28 pages of carefully selected and curated printer testing pages. Trust me, if feels like art as you flip through it.",
+      website: "https://twitter.com/jmilldotdev"
     },
     {
       name: 'Daw Coins',
-      imageUrl: '/logo.png',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097641000375169116/IMG_0928_2.jpeg',
       author: "Czar + Delic",
-      price: "??",
-      description: "",
-      website: ""
-    },
-    {
-      name: 'Faux Holograms Display',
-      imageUrl: '/logo.png',
-      author: "Czar + Delic",
-      price: "??",
-      description: "",
-      website: ""
-    },
-    {
-      name: 'SS Astrolabia Bookmarks',
-      imageUrl: '/logo.png',
-      author: "Czar + Delic",
-      price: "??",
-      description: "",
-      website: ""
+      price: "Various",
+      description: "COINS OF DAW (decentralized autonomism water) of mars. 4 commemorative elemental coins, depicting human appropriated shrine interpretation art by Martians in year 2023.",
+      website: "https://www.instagram.com/czar.apothecara.tide/"
     },
     {
       name: 'Yami-Ichi Stickers',
@@ -200,6 +160,54 @@ const HomePage = () => {
       price: "$15",
       description: "Ever wonder what Martians are doing when they're off computers? I carefully selected 28 offline Martian activities for your curiosity. Inspired by the booklet Offline Activities.",
       website: "https://mars.college/"
+    },
+    {
+      name: 'Palm Tree Headphone & Obsidian Headphone',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097636710566858822/IMG_0907.jpeg',
+      author: "Karo",
+      price: "Free",
+      description: "Headphones made of local palm tree leaves and giant obsidians.",
+      website: "https://www.instagram.com/karolina_pielak/"
+    },
+    {
+      name: 'The Simulated Times',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097638729352478840/IMG_0929.jpeg',
+      author: "Marzipan",
+      price: "$5 or 1 Nugget",
+      description: "Newsletter from the future.",
+      website: "https://www.instagram.com/falsecalligraphy"
+    },
+    {
+      name: 'Fiery Bot Zine',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097639734915899512/IMG_0932.jpeg',
+      author: "Marzipan",
+      price: "1 Nugget",
+      description: "The wisdom of the Divine Fire God of Mars",
+      website: "https://www.instagram.com/falsecalligraphy"
+    },
+    {
+      name: 'The Juicy Pair',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097642092215422996/IMG_0913.jpeg',
+      author: "Jmill",
+      price: "$1",
+      description: "Sugary eggplant & peach that will make your mouth squirt!",
+      website: "https://twitter.com/jmilldotdev"
+    },
+    {
+      name: 'That Desert Spice',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097643124513321030/IMG_0912.jpeg',
+      author: "Jmill",
+      price: "Various",
+      description: "Born in the Bombay Beach desert, ingradients include sand, plants, stuff...",
+      website: "https://twitter.com/jmilldotdev"
+    },
+    {
+      name: 'Little Martian Head',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097643769685360710/IMG_0908.jpeg',
+      author: "Vanessa",
+      price: "$200/piece",
+      description: "Incarnate AI Martian heads with ceramics.",
+      website: "https://www.instagram.com/va2rosa/"
     },
   ]);
 
