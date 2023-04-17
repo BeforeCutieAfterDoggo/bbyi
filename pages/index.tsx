@@ -209,6 +209,14 @@ const HomePage = () => {
       description: "Incarnate AI Martian heads with ceramics.",
       website: "https://www.instagram.com/va2rosa/"
     },
+    {
+      name: 'AI Troll Face Remix',
+      imageUrl: 'https://cdn.discordapp.com/attachments/997240104160591872/1097646023133892628/IMG_0901.jpeg',
+      author: "Gene",
+      price: "$1 for 2",
+      description: "AI remix of the troll face meme using Eden.art .",
+      website: "https://genekogan.com/"
+    },
   ]);
 
 
