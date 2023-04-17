@@ -58,7 +58,7 @@ const HomePage = () => {
       imageUrl: 'https://cdn.discordapp.com/attachments/931340854906482758/1097638967765127188/IMG_6058.png',
       author: "Jmill",
       price: "Auction",
-      description: "",
+      description: "A parking page on the Marsspace social network. Sold for $42,069.69, immediately making the event profitable.",
       website: "https://twitter.com/jmilldotdev"
     },
     {
